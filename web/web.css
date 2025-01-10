@@ -113,3 +113,17 @@ nav .fa {
     padding: 30px;
   }
 }
+/*------course-----*/
+.courses {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100%;
+}
+p {
+  color: #7777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}

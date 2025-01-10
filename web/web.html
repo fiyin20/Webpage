@@ -14,8 +14,8 @@
     <section class="header">
       <nav>
         <a href="web.html"> <img src="moon.jpg" alt="the school logo" /></a>
-        <div class="nav-links">
-          <i class="fa fa-times" onclick="hideMenu ()"></i>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
             <li><a href="">HOME</a></li>
             <li><a href="">ABOUT</a></li>
@@ -24,7 +24,7 @@
             <li><a href="">CONTACTS</a></li>
           </ul>
         </div>
-        <i class="fa fa-bars" onclick="showMenu"></i>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
 
       <div class="text-box">
@@ -33,9 +33,51 @@
           Making website is now one of the easiest thing to do in the world. you
           just need to lear HTML, CSS, Javascript and you are good to go.
         </p>
-        <a class="hero-btn">Visit Us to know</a>
+        <a href="" class="hero-btn">Visit Us to know</a>
       </div>
     </section>
+    <!------COURSES-->
+
+    <section class="courses">
+      <h1>Course We Offer</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, eos non?
+        Commodi, obcaecati numquam mollitia repudiandae aperiam asperiores eum,
+        accusamus ullam veritatis ab consequatur quaerat reprehenderit,
+        consectetur natus eligendi velit!
+      </p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermidiate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            repellendus hic eius facere non sed ad. Beatae unde explicabo
+            voluptates esse rem fugit, inventore deserunt consequuntur itaque id
+            sunt laboriosam!
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            repellendus hic eius facere non sed ad. Beatae unde explicabo
+            voluptates esse rem fugit, inventore deserunt consequuntur itaque id
+            sunt laboriosam!
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            repellendus hic eius facere non sed ad. Beatae unde explicabo
+            voluptates esse rem fugit, inventore deserunt consequuntur itaque id
+            sunt laboriosam!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-----------JAVASCRIPT for Toggle Menu-->
     <script>
       var navLinks = document.getElementById("navLinks");
       function showMenu() {
